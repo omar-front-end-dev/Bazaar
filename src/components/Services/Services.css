@@ -1,0 +1,12 @@
+.services__box:hover .services__text{
+    background-color: #2B3445;
+    color: #fff;
+    
+}
+.services__box img{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.services__box:hover img{
+    transform: scale(1.2);
+}

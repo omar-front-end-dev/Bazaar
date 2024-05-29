@@ -1,0 +1,88 @@
+.main-header__button {
+  border: 1px solid #888 !important;
+  border-radius: 5px !important;
+  transition: 0.3s;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+}
+.main-header__button:nth-last-child(2) {
+  margin: 0 15px !important;
+}
+.main-header__button:hover,
+.main-header__button.Mui-selected {
+  background-color: #d23f581e !important;
+  color: #d23f57 !important;
+  border: 1px solid #d23f57 !important;
+}
+
+.swiper-swipe {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next {
+  right: -50px !important;
+}
+
+.swiper-button-prev {
+  left: -50px !important;
+}
+
+.swiper:hover .swiper-button-next {
+  right: 10px !important;
+  transition: 0.3s;
+}
+.swiper:hover .swiper-button-prev {
+  left: 10px !important;
+  transition: 0.3s;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 15px !important;
+  font-weight: bold;
+  color: #fff !important;
+  padding: 10px 15px;
+  background-color: #2b3445;
+}
+
+@media (max-width: 600px) {
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    display: none;
+  }
+}
+.swiper-slides {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slides::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: none;
+}
+
+.Sale-Banner{
+  background-image: url(../../assets/images/banner/long-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Sale-Banner::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(3, 3, 3, 0.275);
+}

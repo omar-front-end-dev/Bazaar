@@ -1,0 +1,6 @@
+.Nav__Link:hover{
+    color: #D23F57 !important;
+}
+.Nav__Link.active{
+    color: #D23F57 !important;
+}
